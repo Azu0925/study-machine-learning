@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "deep-learning-with-python"
+version = "0.1.0"
+description = ""
+authors = ["Àżu <yamaneko564783@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.0.3"
+keras = "^2.14.0"
+
+[tool.poetry.group.dev.dependencies]
+notebook1 = "^6.4.0.dev0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
